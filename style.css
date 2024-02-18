@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+#card{
+
+    height: 420px;
+    width: 300px;
+    background: linear-gradient(#bdfffa,#effefd);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
+}
+#card img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5%;
+}
+#card h1{
+    font: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: rgb(210, 1, 1);
+}
+#card h5{
+    font-size: 20px;
+    color: blue;
+    margin: 10px;
+}
+#card button{
+    background-color: rgb(5, 164, 237);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+margin: 10px 10px 0;
+
+}
+#card button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#card #cancel{
+background-color: #dadada;
+color: black ;
+}
